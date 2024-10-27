@@ -1,0 +1,40 @@
+{
+  "name": "@msobiecki/eslint-plugin-test-locators",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A simple ESLint plugin for improving test locator usage.",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslint-plugin-test-locators"
+  ],
+  "homepage": "https://github.com/msobiecki/eslint-plugin-test-locators",
+  "bugs": {
+    "url": "https://github.com/msobiecki/eslint-plugin-test-locators/issues"
+  },
+  "repository": {
+    "url": "git://git@github.com:msobiecki/eslint-plugin-test-locators.git"
+  },
+  "license": "MIT",
+  "author": "Michał Sobiecki <kontakt@codeshaker.pl>",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
