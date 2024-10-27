@@ -13,7 +13,7 @@
     "url": "https://github.com/msobiecki/eslint-plugin-test-locators/issues"
   },
   "repository": {
-    "url": "git://git@github.com:msobiecki/eslint-plugin-test-locators.git"
+    "url": "git://git@github.com/msobiecki/eslint-plugin-test-locators.git"
   },
   "license": "MIT",
   "author": "Michał Sobiecki <kontakt@codeshaker.pl>",
