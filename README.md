@@ -15,7 +15,7 @@ A simple ESLint plugin for improving test locator usage. It ensures that your te
 To install the plugin, run:
 
 ```bash
-npm install --save-dev eslint-plugin-test-locators
+npm install --save-dev @msobiecki/eslint-plugin-test-locators
 ```
 
 Make sure to install the necessary peer dependencies as well:
@@ -33,9 +33,9 @@ To use this ESLint configuration, you need to extend it in your project's `.esli
 
 ```json
 {
-  "plugins": ["test-locators"],
+  "plugins": ["@msobiecki/test-locators"],
   "rules": {
-    "test-locators/check-data-test-attribute": "error"
+    "@msobiecki/test-locators/check-data-test-attribute": "error"
   }
 }
 ```
@@ -46,9 +46,9 @@ You can customize the rules in your ESLint config to suit your project needs:
 
 ```json
 {
-  "plugins": ["test-locators"],
+  "plugins": ["@msobiecki/test-locators"],
   "rules": {
-    "test-locators/check-data-test-attribute": ["error", {
+    "@msobiecki/test-locators/check-data-test-attribute": ["error", {
       "attributeName": "data-test",
       "requiredTags": ["button", "a", "input", "select", "textarea"],
       "roleMappings": {
@@ -69,7 +69,7 @@ The plugin currently includes the following rules:
 ### Example Rule Configuration:
 
 ```json
-"test-locators/check-data-test-attribute": ["error", {
+"@msobiecki/test-locators/check-data-test-attribute": ["error", {
   "attributeName": "data-test-id",
   "tagPatterns": {
     "button": ["button-", "btn-"],
