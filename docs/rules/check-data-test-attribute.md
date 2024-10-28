@@ -25,7 +25,7 @@ Examples of **correct** code for this rule:
 ## Rule Options
 
 ```js
-"test-locators/check-data-test-attribute": [<enabled>, {
+"@msobiecki/test-locators/check-data-test-attribute": [<enabled>, {
   "attributeName": <string>,
   "tagPatterns": {
     [key: string]: [<string>, ...],
