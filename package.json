@@ -1,6 +1,6 @@
 {
   "name": "@msobiecki/eslint-plugin-test-locators",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "private": false,
   "description": "A simple ESLint plugin for improving test locator usage.",
   "keywords": [
