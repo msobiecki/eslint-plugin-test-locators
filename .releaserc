@@ -2,7 +2,7 @@
   "branches": [
     "master"
   ],
-  "repositoryUrl": "https://github.com/msobiecki/eslint-config",
+  "repositoryUrl": "https://github.com/msobiecki/eslint-plugin-test-locators",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
