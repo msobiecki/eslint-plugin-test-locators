@@ -1,3 +1,10 @@
+## [0.10.2](https://github.com/msobiecki/eslint-plugin-test-locators/compare/v0.10.1...v0.10.2) (2025-09-27)
+
+
+### Bug Fixes
+
+* improve pattern required tags ([03f8801](https://github.com/msobiecki/eslint-plugin-test-locators/commit/03f8801e41c8f9b06da5690414f29d3e445a6f26))
+
 ## [0.10.1](https://github.com/msobiecki/eslint-plugin-test-locators/compare/v0.10.0...v0.10.1) (2025-09-27)
 
 
