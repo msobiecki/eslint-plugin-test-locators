@@ -1,5 +1,9 @@
-module.exports = {
-  rules: {
-    "check-data-test-attribute": require("./lib/rules/check-data-test-attribute"),
-  },
+import checkDataTestAttribute from "./lib/rules/check-data-test-attribute.js";
+
+export const rules = {
+  "check-data-test-attribute": checkDataTestAttribute,
+};
+
+export default {
+  rules,
 };
