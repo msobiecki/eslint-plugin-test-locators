@@ -5,6 +5,7 @@
 A simple ESLint plugin for improving test locator usage. It ensures that your test selectors are consistent and easy to maintain.
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Rules](#rules)
@@ -28,36 +29,52 @@ npm install --save-dev eslint
 
 To use this ESLint configuration, you need to extend it in your project's `.eslintrc` file:
 
-
 ### Basic Configuration
 
-```json
-{
-  "plugins": ["@msobiecki/test-locators"],
-  "rules": {
-    "@msobiecki/test-locators/check-data-test-attribute": "error"
-  }
-}
+```javascript
+import { defineConfig } from "eslint/config";
+import testLocators from "@msobiecki/eslint-plugin-test-locators";
+
+export default defineConfig([
+  {
+    plugins: {
+      "@msobiecki/test-locators": testLocators,
+    },
+    rules: {
+      "@msobiecki/test-locators/check-data-test-attribute": "error",
+    },
+  },
+]);
 ```
 
 ### Configuration with Custom Options
 
 You can customize the rules in your ESLint config to suit your project needs:
 
-```json
-{
-  "plugins": ["@msobiecki/test-locators"],
-  "rules": {
-    "@msobiecki/test-locators/check-data-test-attribute": ["error", {
-      "attributeName": "data-test",
-      "requiredTags": ["button", "a", "input", "select", "textarea"],
-      "roleMappings": {
-        "button": ["button-", "btn-"],
-        "link": ["anchor-", "link-"]
-      }
-    }]
-  }
-}
+```javascript
+import { defineConfig } from "eslint/config";
+import testLocators from "@msobiecki/eslint-plugin-test-locators";
+
+export default defineConfig([
+  {
+    plugins: {
+      "@msobiecki/test-locators": testLocators,
+    },
+    rules: {
+      "@msobiecki/test-locators/check-data-test-attribute": [
+        "error",
+        {
+          attributeName: "data-test",
+          requiredTags: ["button", "a", "input", "select", "textarea"],
+          roleMappings: {
+            button: ["button-", "btn-"],
+            link: ["anchor-", "link-"],
+          },
+        },
+      ],
+    },
+  },
+]);
 ```
 
 ## Rules
