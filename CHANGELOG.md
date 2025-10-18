@@ -1,3 +1,17 @@
+# [1.0.0](https://github.com/msobiecki/eslint-plugin-test-locators/compare/v0.11.0...v1.0.0) (2025-10-18)
+
+
+### chore
+
+* **eslint:** update to ESLint 9 and migrate to flat config ([21a3348](https://github.com/msobiecki/eslint-plugin-test-locators/commit/21a3348322d03f98a746327c945ccdd700f6ff55))
+* **eslint:** update to ESLint 9 and migrate to flat config ([f902fef](https://github.com/msobiecki/eslint-plugin-test-locators/commit/f902fef9491c41846f2ed8c2f1649525ad4098e8))
+
+
+### BREAKING CHANGES
+
+* **eslint:** The ESLint configuration has been migrated to the new flat config.
+* **eslint:** The ESLint configuration has been migrated to the new flat config.
+
 # [0.11.0](https://github.com/msobiecki/eslint-plugin-test-locators/compare/v0.10.2...v0.11.0) (2025-09-27)
 
 ### Features
