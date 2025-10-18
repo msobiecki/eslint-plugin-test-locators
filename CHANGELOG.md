@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/msobiecki/eslint-plugin-test-locators/compare/v1.0.0...v1.1.0) (2025-10-18)
+
+
+### Features
+
+* update readme ([61695f0](https://github.com/msobiecki/eslint-plugin-test-locators/commit/61695f00b5498d49777560d0c84cd41f86a119fb))
+
 # [1.0.0](https://github.com/msobiecki/eslint-plugin-test-locators/compare/v0.11.0...v1.0.0) (2025-10-18)
 
 
